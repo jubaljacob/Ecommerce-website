@@ -10,8 +10,7 @@ const Header = () => {
             <p>Free shipping all Over Rs.1000/-</p>
           </div>
           <div className='col-6'>
-            <p className="text-end"></p>
-            <p>Hotline: <a href="tel:+91 67893456">+91 67893456</a> </p> 
+            <p className="text-end">Hotline: <a href="tel:+91 67893456">+91 67893456</a> </p> 
           </div>
         </div>
       </div>
