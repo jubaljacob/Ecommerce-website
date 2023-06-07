@@ -3,9 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-:root{
-  
-}
 body{
   font-family: 'Rubik', sans-serif;;
 }
@@ -13,3 +10,11 @@ a{
   text-decoration: none;
   display: inline-block;
 }
+
+
+/* Footer part */
+footer{
+  background-color: var( --color-232f3e);
+}
+
+/* Footer part ends here */ 
