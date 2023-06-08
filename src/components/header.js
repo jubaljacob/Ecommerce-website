@@ -33,7 +33,7 @@ const Header = () => {
           <div className="row align-items-center">
             <div className="col-2">
               <h2>
-                <Link className="text-white">Dev Corner</Link>
+                <Link className="text-white">Jojo's</Link>
               </h2>
             </div>
             <div className="col-5">
