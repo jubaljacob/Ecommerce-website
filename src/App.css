@@ -155,8 +155,8 @@ footer .input-group-text{
 }
 
 .small-banner-content {
-  top: 25%;
-  left: 10%;
+  top: 15%;
+  left: 5%;
 }
 .small-banner-content h4 {
   font-size: 14px;
@@ -170,7 +170,7 @@ footer .input-group-text{
 .small-banner-content h5 {
   font-size: 22px;
   line-height: 34px;
-  letter-spacing: -2px;
+  letter-spacing: -1.2px;
   font-weight: 500;
   text-transform: none;
 }

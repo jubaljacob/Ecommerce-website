@@ -24,7 +24,7 @@ const Home = () => {
               <div className="main-banner-content position-absolute">
                 <h4>Era of spacial computing</h4>
                 <h5>Vision Pro.</h5>
-                <p>From $3499</p>
+                <p>From ₹2,89,999.</p>
                 <Link className="button">BUY NOW</Link>
               </div>
             </div>
@@ -38,10 +38,11 @@ const Home = () => {
                   alt="main banner"
                 />
                 <div className="small-banner-content position-absolute">
-                  <h4>Best Sake</h4>
-                  <h5>iPad S13+ Pro.</h5>
+                  <h4>Current Sale</h4>
+                  <h5>MacBook Air.</h5>
                   <p>
-                    From $999.00 <br /> or $41.62/mo.
+                    From ₹92,000 onwards
+                    {/* <br /> or $41.62/mo. */}
                   </p>
                 </div>
               </div>
@@ -52,10 +53,11 @@ const Home = () => {
                   alt="main banner"
                 />
                 <div className="small-banner-content position-absolute">
-                  <h4>NEW ARRIVAL</h4>
-                  <h5>But IPad Air</h5>
+                <h4>New arrival</h4>
+                  <h5>Watch Pro.</h5>
                   <p>
-                    From $999.00 <br /> or $41.62/mo.
+                    From ₹59,000 onwards
+                    {/* <br /> or $41.62/mo. */}
                   </p>
                 </div>
               </div>
@@ -66,10 +68,11 @@ const Home = () => {
                   alt="main banner"
                 />
                 <div className="small-banner-content position-absolute">
-                  <h4>NEW ARRIVAL</h4>
-                  <h5>But IPad Air</h5>
+                <h4>Current Sale</h4>
+                  <h5>iPad(9th gen) .</h5>
                   <p>
-                    From $999.00 <br /> or $41.62/mo.
+                    From ₹49,000 onwards
+                    {/* <br /> or $41.62/mo. */}
                   </p>
                 </div>
               </div>
@@ -80,10 +83,11 @@ const Home = () => {
                   alt="main banner"
                 />
                 <div className="small-banner-content position-absolute">
-                  <h4>NEW ARRIVAL</h4>
-                  <h5>But IPad Air</h5>
+                <h4>Current Sale</h4>
+                  <h5>AirPods Max.</h5>
                   <p>
-                    From $999.00 <br /> or $41.62/mo.
+                    From ₹59,900 onwards
+                    {/* <br /> or $41.62/mo. */}
                   </p>
                 </div>
               </div>
