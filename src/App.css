@@ -273,5 +273,55 @@ footer .input-group-text{
 }
 /*  Blog Part ends here */
 
+/* Product Card */
+.product-card {
+  padding: 15px;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.product-card:hover .product-image > img:last-child{
+  display: none;
+
+}
+.product-card:hover .product-image > img:nth-child(1){
+  display: none;
+}
+
+.product-card .product-image > img:last-child{
+  display: block;
+}
+
+.product-card:hover .action-bar{
+  right: 10px;
+}
+
+
+.product-card .product-details h6{
+  color: #bf4800;
+  font-size: 13px;
+}
+
+.product-card .product-details h5{
+  font-size: 15px;
+  color: var(--color-1c1c1b);
+}
+.product-card .product-details p.price{
+  font-size: 16px;
+  color: var(--color-1c1c1b);
+}
+.action-bar{
+  top: 14%;
+  right: -23px;
+  transition: 0.3s;
+}
+.wishlist-icon{
+  top: 2%;
+  right: 11px;
+}
+
+/*  Product Card ends here */
+
 /* Home page end */
 
