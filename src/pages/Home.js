@@ -4,6 +4,8 @@ import {Link} from "react-router-dom";
 import mainbanner from '../images/main-banner-1.jpg';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import BlogCard from "../components/BlogCard";
+import ProductCard from "../components/ProductCard";
 import mainbanner1 from "../images/main-banner.jpg";
 import catbanner1 from '../images/catbanner-01.jpg';
 import catbanner2 from '../images/catbanner-02.jpg';
@@ -21,7 +23,19 @@ import speaker from '../images/speaker.jpg';
 import home from '../images/homeapp.jpg';
 import music from '../images/headphone.jpg';
 import acc from '../images/acc.jpg';
-import mob from '../images/tab.jpg';
+// import mob from '../images/tab.jpg';
+import Marquee from "react-fast-marquee";
+import brand1 from "../images/brand-01.png";
+import brand2 from "../images/brand-02.png";
+import brand3 from "../images/brand-03.png";
+import brand4 from "../images/brand-04.png";
+import brand5 from "../images/brand-05.png";
+import brand6 from "../images/brand-06.png";
+import brand7 from "../images/brand-07.png";
+import brand8 from "../images/brand-08.png";
+
+
+
 
 
 
@@ -226,6 +240,73 @@ const Home = () => {
       </div>
     </div>
   </section>
+  <section className='blog-wrapper py-5 home-wrapper-2'>
+    <div className="container-xxl">
+      <div className="row">
+        <div className="col-12">
+          <h3 className="section-heading">
+            Featured Collection
+          </h3>
+        </div>
+        <ProductCard />
+        <ProductCard />
+        <ProductCard />
+        <ProductCard />
+      </div>
+    </div>
+  </section>
+  <section className="marque-wrapper py-5">
+    <div className="container-xxl">
+      <div className="row">
+        <div className="col-12">
+          <div className="marquee-inner-wrapper card-wrapper">
+            <Marquee className='d-flwx'>
+              <div className='mx-4 w-25'>
+                <img src={brand1} alt="brand" />
+              </div>
+              <div className='mx-4 w-25'>
+                <img src={brand2} alt="brand" />
+              </div>
+              <div className='mx-4 w-25'>
+                <img src={brand3} alt="brand" />
+              </div>
+              <div className='mx-4 w-25'>
+                <img src={brand4} alt="brand" />
+              </div>
+              <div className='mx-4 w-25'>
+                <img src={brand5} alt="brand" />
+              </div>
+              <div className='mx-4 w-25'>
+                <img src={brand6} alt="brand" />
+              </div>
+              <div className='mx-4 w-25'>
+                <img src={brand7} alt="brand" />
+              </div>
+              <div className='mx-4 w-25'>
+                <img src={brand8} alt="brand" />
+              </div>
+            </Marquee>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section className='blog-wrapper py-5 home-wrapper-2'>
+    <div className="container-xxl">
+      <div className="row">
+        <div className="col-12">
+          <h3 className="section-heading">
+            Our Latest Blogs
+          </h3>
+        </div>
+        <BlogCard />
+        <BlogCard />
+        <BlogCard />
+        <BlogCard />
+      </div>
+    </div>
+  </section>
+  
   </>
 }
 
