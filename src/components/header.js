@@ -28,7 +28,7 @@ const Header = () => {
           </div>
         </div>
       </header> */}
-      <header className="header-upper py-3">
+      <header className="header-upper py-3 sticky">
         <div className="container-xxl">
           <div className="row align-items-center">
             <div className="col-2">
