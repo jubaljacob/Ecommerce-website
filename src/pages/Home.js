@@ -14,6 +14,15 @@ import service2 from '../images/service-02.png';
 import service3 from '../images/service-03.png';
 import service4 from '../images/service-04.png';
 import service5 from '../images/service-05.png';
+import camera from '../images/camera.jpg';
+import lap from '../images/laptop.jpg';
+import watch from '../images/watch.jpg';
+import speaker from '../images/speaker.jpg';
+import home from '../images/homeapp.jpg';
+import music from '../images/headphone.jpg';
+import acc from '../images/acc.jpg';
+import mob from '../images/tab.jpg';
+
 
 
 const MainBanner = () => {
@@ -151,13 +160,68 @@ const Home = () => {
     </div>
   </div>
   </section>
-  <section className="home-wrapper-2" py-5>
+  <section className="home-wrapper-2 py-5">
     <div className="container-xxl">
       <div className="row">
         <div className="col-12">
-          <div className="categories">
-
-          </div>
+        <div className="categories d-flex justify-content-between flex-wrap align-items-center">
+              <div className="d-flex gap-30 align-items-center">
+                <div>
+                  <h6>Laptop</h6>
+                  <p>10 Items</p>
+                </div>
+                <img src={lap} alt="camera" />
+              </div>
+              <div className="d-flex gap align-items-center">
+                <div>
+                  <h6>Cameras</h6>
+                  <p>10 Items</p>
+                </div>
+                <img src={camera} alt="camera" />
+              </div>
+              <div className="d-flex gap align-items-center">
+                <div>
+                  <h6>Music</h6>
+                  <p>10 Items</p>
+                </div>
+                <img src={music} alt="camera" />
+              </div>
+              <div className="d-flex gap align-items-center">
+                <div>
+                  <h6>Smart Watches</h6>
+                  <p>10 Items</p>
+                </div>
+                <img src={watch} alt="camera" />
+              </div>
+              <div className="d-flex gap align-items-center">
+                <div>
+                  <h6>Mobiles and Tablets</h6>
+                  <p>10 Items</p>
+                </div>
+                <img src={home} alt="camera" />
+              </div>
+              <div className="d-flex gap align-items-center">
+                <div>
+                  <h6>Accessories</h6>
+                  <p>10 Items</p>
+                </div>
+                <img src={acc} alt="camera" />
+              </div>
+              <div className="d-flex gap align-items-center">
+                <div>
+                  <h6>Portable Speakers</h6>
+                  <p>10 Items</p>
+                </div>
+                <img src={speaker} alt="camera" />
+              </div>
+              <div className="d-flex gap align-items-center">
+                <div>
+                  <h6>Home Appliances</h6>
+                  <p>10 Items</p>
+                </div>
+                <img src={home} alt="camera" />
+              </div>
+            </div>
         </div>
       </div>
     </div>
