@@ -34,6 +34,12 @@ import brand6 from "../images/brand-06.png";
 import brand7 from "../images/brand-07.png";
 import brand8 from "../images/brand-08.png";
 
+import famous1 from "../images/applewatch.jpg";
+import famous2 from "../images/iphone.jpg";
+import famous22 from "../images/iphone.jpg";
+import famous3 from "../images/s23vere.jpeg.jpg";
+import famous4 from "../images/homepod.webp";
+
 
 
 
@@ -240,6 +246,36 @@ const Home = () => {
       </div>
     </div>
   </section>
+  <section className="famous-wrapper home-wrapper-2  py-5">
+    <div className="container-xxl">
+      <div className="row">
+        <div className="col-3">
+          <div className="famous-card position-relative">
+            <img src={famous1} alt="apple" className="img-fluid"/>
+            <div className="famous-content position-absolute"></div>
+           </div>
+        </div>
+        <div className="col-3">
+          <div className="famous-card position-relative">
+            <img src={famous2} alt="apple" className="img-fluid"/>
+            <div className="famous-content position-absolute"></div>
+           </div>
+        </div>
+        <div className="col-3">
+          <div className="famous-card position-relative">
+            <img src={famous3} alt="apple" className="img-fluid"/>
+            <div className="famous-content position-absolute"></div>
+           </div>
+        </div>
+        <div className="col-3">
+          <div className="famous-card position-relative">
+            <img src={famous4} alt="apple" className="img-fluid"/>
+            <div className="famous-content position-absolute"></div>
+           </div>
+        </div>
+      </div>
+    </div>
+  </section>
   <section className='feature-wrapper py-5 home-wrapper-2'>
     <div className="container-xxl">
       <div className="row">
@@ -263,7 +299,7 @@ const Home = () => {
             Our Popular Products
           </h3>
         </div>
-        <div className="row">
+        <div className="row"> 
           <ProductCard />
           <ProductCard />
           <ProductCard />
