@@ -4,11 +4,14 @@
   box-sizing: border-box;
 }
 :root {
-  --color-131921: #131921; /*base colorheadder and main */
-  --color-3b4149: #3b4149; /*shop caregories lines*/
+  --color-131921: #18312c; /*base colorheadder and main */
+  --color-darkergeen: #18312c; /*second*/
+  --color-grey: #9dada4; /*shop caregories lines*/
+
   --color-febd69: #febd69; /*search bar*/ 
-  --color-232f3e: #232f3e; /*second*/
-  --color-footer: #de4d4dd1; /*footer*/
+  --color-232f3e: #214e40; /*second below search bar*/
+  --color-footmain: #214e40; /*second*/
+  --color-footer: #de4d4d; /*footer*/
   --color-bf4800: #bf4800; /*current sale*/
   --color-f5f5f7: #f5f5f7; /*free shipping*/
   --color-ededed: #ededed;
@@ -49,15 +52,15 @@ a {
 }
 
 .button {
-  background-color: var(--color-232f3e);
+  background-color: var(--color-131921);
   color: white;
   font-size: 14px;
   padding: 13px 33px;
   border-radius: 25px;
 }
 .button:hover {
-  background-color: var(--color-febd69);
-  color: #131921;
+  background-color: #667673;
+  color: #f5f5f7;
 }
 /* Header Part */
 
@@ -68,16 +71,25 @@ a {
 .header-upper {
   background-color: var(--color-131921);
   position: fixed;
-  height: 60px;
+  height: 80px;
   top: 0;
   width: 100%;
   z-index: 99;
 
+  
+  box-shadow: 0 8px 32px 0 rgba(37, 38, 49, 0.5);
+  backdrop-filter: blur( 9.5px );
+  -webkit-backdrop-filter: blur( 9.5px );
+  
+  /* border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+
 }
+
+
 
 .header-bottom {
   background-color: var(--color-232f3e);
-  margin-top: 60px;
+  margin-top: 80px;
 }
 .header-upper .input-group-text {
   background-color: var(--color-febd69);
@@ -88,7 +100,7 @@ a {
 }
 .header-bottom .menu-links a,
 .header-bottom .dropdown button {
-  color: white;
+  color: #f5f5f7;
   font-size: 14px;
   line-height: 18px;
   font-weight: 400;
@@ -97,7 +109,7 @@ a {
 }
 
 .header-bottom .dropdown button:focus {
-  box-shadow: none;
+  box-shadow: 0 8px 32px 0 rgba(37, 38, 49, 0.8); ;
 }
 .header-bottom .dropdown-menu {
   background-color: var(--color-232f3e);
@@ -107,19 +119,21 @@ a {
 .header-bottom .dropdown-item {
   padding: 20px;
   margin-bottom: 3px;
-  border-bottom: 1px solid var(--color-3b4149);
+  
 }
 .header-bottom .dropdown-item:hover {
   background-color: transparent;
-  color: var(--color-febd69) !important;
+  color: var(--color-131921) !important;
 }
+
+
 
 /* Header Part End Here */
 
 /* Footer Part */
 footer{
   /* background-color: var(--color-footer); */
-  background-color: var(--color-232f3e);
+  background-color: var(--color-footmain);
 }
 footer:not( :first-child) {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
@@ -129,6 +143,8 @@ footer .input-group-text{
   color:white;
   padding: 8px 17px;
 }
+
+
 
 
 /* Footer Part ends */

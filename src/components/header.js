@@ -1,4 +1,4 @@
-import React from "react";
+import React , { useEffect } from "react";
 import { NavLink, Link } from "react-router-dom";
 import { BsSearch } from "react-icons/bs";
 import compare from "../images/compare.svg";
@@ -7,29 +7,35 @@ import user from "../images/user.svg";
 import cart from "../images/cart.svg";
 import menu from "../images/menu.svg";
 const Header = () => {
+  useEffect(() => {
+    const handleScroll = () => {
+      const headerUpper = document.querySelector(".header-upper");
+
+      if (window.scrollY > 100) {
+        headerUpper.style.transition = "transform 0.5s, border-radius 0.5s, background-color 0.5s, opacity 0.5s";
+        headerUpper.style.borderRadius = "40px";
+        headerUpper.style.transform = "translateY(10px) ";
+        headerUpper.style.backgroundColor = "rgba(24, 49, 44, 0.65)";
+        
+      } else {
+        headerUpper.style.transition = "transform 0.5s, border-radius 0.5s, background-color 0.5s, opacity 0.5s";
+        headerUpper.style.borderRadius = "0px";
+        headerUpper.style.transform = "translateY(0px) ";
+        headerUpper.style.backgroundColor = "rgba(24, 49, 44, 1)";
+        
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   return (
     <>
-      {/* <header className="header-top-strip py-3">
-        <div className="container-xxl">
-          <div className="row">
-            <div className="col-6">
-              <p className="text-white mb-0">
-                Free Shipping Over $100 & Free Returns
-              </p>
-            </div>
-            <div className="col-6">
-              <p className="text-end text-white mb-0">
-                Hotline:
-                <a className="text-white" href="tel:+91 8264954234">
-                  +91 8264954234
-                </a>
-              </p>
-            </div>
-          </div>
-        </div>
-      </header> */}
       <header className="header-upper py-3 sticky">
-        <div className="container-xxl">
+        <div className="container-xl">
           <div className="row align-items-center">
             <div className="col-2">
               <h2>
@@ -126,17 +132,17 @@ const Header = () => {
                       aria-labelledby="dropdownMenuButton1"
                     >
                       <li>
-                        <Link className="dropdown-item text-white" to="">
+                        <Link className="dropdown-item" to="">
                           Action
                         </Link>
                       </li>
                       <li>
-                        <Link className="dropdown-item text-white" to="">
+                        <Link className="dropdown-item" to="">
                           Another action
                         </Link>
                       </li>
                       <li>
-                        <Link className="dropdown-item text-white" to="">
+                        <Link className="dropdown-item" to="">
                           Something else here
                         </Link>
                       </li>
