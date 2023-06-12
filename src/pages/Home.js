@@ -78,7 +78,7 @@ const MainBanner = () => {
 
 const Home = () => {
   return <>
-  <section className="home-wrapper-1 py-5">
+  <section className="home-wrapper-2 py-5">
     <div className="container-xxl">
       <div className="row">
         <div className="col-6">
@@ -273,7 +273,7 @@ const Home = () => {
       </div>
     </div>
   </section>
-  <section className="marque-wrapper py-5">
+  <section className="home-wrapper-2 marque-wrapper py-5">
     <div className="container-xxl">
       <div className="row">
         <div className="col-12">
