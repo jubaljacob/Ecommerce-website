@@ -6,6 +6,9 @@ import wishlist from "../images/wishlist.svg";
 import user from "../images/user.svg";
 import cart from "../images/cart.svg";
 import menu from "../images/menu.svg";
+import { InputGroup, FormControl, Button } from 'react-bootstrap';
+
+
 const Header = () => {
   useEffect(() => {
     const handleScroll = () => {
@@ -43,18 +46,18 @@ const Header = () => {
               </h2>
             </div>
             <div className="col-5">
-              <div className="input-group">
-                <input
+            <div className="input-group">
+              <InputGroup>
+                <FormControl
                   type="text"
-                  className="form-control py-2"
                   placeholder="Search Product Here..."
                   aria-label="Search Product Here..."
                   aria-describedby="basic-addon2"
+                  className="rounded-pill"
                 />
-                <span className="input-group-text p-3" id="basic-addon2">
-                  <BsSearch className="fs-6" />
-                </span>
-              </div>
+                
+              </InputGroup>
+            </div>
             </div>
             <div className="col-5">
               <div className="header-upper-links d-flex align-items-center justify-content-between">
@@ -132,17 +135,17 @@ const Header = () => {
                       aria-labelledby="dropdownMenuButton1"
                     >
                       <li>
-                        <Link className="dropdown-item" to="">
+                        <Link className="dropdown-item text-white" to="">
                           Action
                         </Link>
                       </li>
                       <li>
-                        <Link className="dropdown-item" to="">
+                        <Link className="dropdown-item text-white" to="">
                           Another action
                         </Link>
                       </li>
                       <li>
-                        <Link className="dropdown-item" to="">
+                        <Link className="dropdown-item text-white" to="">
                           Something else here
                         </Link>
                       </li>
