@@ -474,6 +474,26 @@ footer .input-group-text{
 .contact-inner-wrapper p {
   color: var(--color-777777);
 }
+
+.map-responsive {
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  padding-top: 56.25%; /* 16:9 aspect ratio for responsive map */
+}
+
+.map-responsive iframe {
+  
+  position: absolute;
+  
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
 /* Contact Page ends */
 
 /* Compare Product Page */
@@ -512,24 +532,6 @@ footer .input-group-text{
   border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.map-responsive {
-  position: relative;
-  border-radius: 20px;
-  overflow: hidden;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-  padding-top: 56.25%; /* 16:9 aspect ratio for responsive map */
-}
-
-.map-responsive iframe {
-  
-  position: absolute;
-  
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border: 0;
-}
 
 
 
