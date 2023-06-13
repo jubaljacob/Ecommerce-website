@@ -133,7 +133,14 @@ a {
 /* Footer Part */
 footer{
   /* background-color: var(--color-footer); */
-  background-color: var(--color-footmain);
+  /* background-color: var(--color-footmain); */
+  background-color: var(--color-131921);
+
+  /* border-radius: 40px; */
+  backdrop-filter: blur( 9.5px );
+  -webkit-backdrop-filter: blur( 9.5px );
+  
+  
 }
 footer:not( :first-child) {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
@@ -481,12 +488,16 @@ footer .input-group-text{
 
 .map-responsive {
   position: relative;
+  border-radius: 20px;
   overflow: hidden;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   padding-top: 56.25%; /* 16:9 aspect ratio for responsive map */
 }
 
 .map-responsive iframe {
+  
   position: absolute;
+  
   top: 0;
   left: 0;
   width: 100%;
