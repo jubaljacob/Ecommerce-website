@@ -1,7 +1,7 @@
 import React from 'react';
 // import BreadCrumb from '../components/BreadCrumb';
 import Meta from "../components/Meta";
-const CompareProduct = () => {
+const CompareProducts = () => {
   return (
     <>
         <Meta title={"Compare Products"} />
@@ -20,4 +20,4 @@ const CompareProduct = () => {
   );
 };
 
-export default CompareProduct;
+export default CompareProducts;
