@@ -57,6 +57,8 @@ const MainBanner = () => {
     arrows: false,
   };
 
+  
+
   return (
     <Slider {...mainBannerSettings}>
       <div className="main-banner position-relative">
@@ -80,6 +82,7 @@ const MainBanner = () => {
     </Slider>
   );
 };
+
 
 
 const Home = () => {
@@ -253,8 +256,11 @@ const Home = () => {
           <div className="famous-card position-relative">
             <img src={famous1} alt="apple" className="img-fluid"/>
             <div className="famous-content position-absolute">
-                
             </div>
+            
+            <a href="https://www.apple.com/apple-watch-series-8/" target="_blank" rel="noopener noreferrer">
+              <button className="famous-card-button">More info</button>
+            </a>
            </div>
         </div>
         <div className="col-3">
@@ -265,7 +271,11 @@ const Home = () => {
                 <h6>Smart watch series 7</h6>
                 <p>from 40000</p>
             </div>
+            <a href="https://www.apple.com/iphone-14-pro/" target="_blank" rel="noopener noreferrer">
+              <button className="famous-card-button">More info</button>
+            </a>
            </div>
+           
         </div>
         <div className="col-3">
           <div className="famous-card position-relative">
@@ -275,6 +285,7 @@ const Home = () => {
                 <h6>Smart watch series 7</h6>
                 <p>from 40000</p>
               </div>
+              <button class="famous-card-button">More info</button>
            </div>
         </div>
         <div className="col-3">
@@ -285,6 +296,7 @@ const Home = () => {
                 <h6>Smart watch series 7</h6>
                 <p>from 40000</p>
             </div>
+            <button class="famous-card-button">More info</button>
            </div>
         </div>
       </div>
