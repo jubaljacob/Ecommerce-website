@@ -62,8 +62,7 @@ const Header = () => {
             <div className="col-5">
               <div className="header-upper-links d-flex align-items-center justify-content-between">
                 <div>
-                  <Link
-                    to="/compare-product"
+                  <Link to="../CompareProduct"
                     className="d-flex align-items-center gap-10 text-white"
                   >
                     <img src={compare} alt="compare" />
@@ -155,7 +154,7 @@ const Header = () => {
                 <div className="menu-links">
                   <div className="d-flex align-items-center gap-15">
                     <NavLink to="/">Home</NavLink>
-                    <NavLink to="/product">Our Store</NavLink>
+                    <NavLink to="/OurStore">Our Store</NavLink>
                     <NavLink to="/blogs">Blogs</NavLink>
                     <NavLink to="/contact">Contact</NavLink>
                   </div>
