@@ -262,7 +262,7 @@ const Home = () => {
         <div className="col-3">
           <div className="famous-card position-relative">
             <img src={famous2} alt="apple" className="img-fluid"/>
-            <div className="famous-content position-absolute">
+            <div className="famous-white-bg-text position-absolute text-dark">
                 <h5>Big Screen</h5>
                 <h6>Smart watch series 7</h6>
                 <p>from 40000</p>
@@ -272,7 +272,7 @@ const Home = () => {
         <div className="col-3">
           <div className="famous-card position-relative">
             <img src={famous3} alt="apple" className="img-fluid"/>
-              <div className="famous-content position-absolute">
+              <div className="famous-white-bg-text position-absolute text-dark">
                 <h5>Big Screen</h5>
                 <h6>Smart watch series 7</h6>
                 <p>from 40000</p>
@@ -282,7 +282,7 @@ const Home = () => {
         <div className="col-3">
           <div className="famous-card position-relative">
             <img src={famous4} alt="apple" className="img-fluid"/>
-            <div className="famous-content position-absolute">
+            <div className="famous-white-bg-text position-absolute text-dark">
                 <h5>Big Screen</h5>
                 <h6>Smart watch series 7</h6>
                 <p>from 40000</p>
