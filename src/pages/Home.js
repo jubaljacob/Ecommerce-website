@@ -38,7 +38,7 @@ import famous1 from "../images/applewatch.jpg";
 import famous2 from "../images/iphone.jpg";
 import famous22 from "../images/iphone.jpg";
 import famous3 from "../images/s23vere.jpeg.jpg";
-import famous4 from "../images/homepod.webp";
+import famous4 from "../images/homepod.jpg";
 
 
 
