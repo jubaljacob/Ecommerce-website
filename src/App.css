@@ -572,3 +572,13 @@ footer .input-group-text{
 
 
 /* Compare Product Page end here */
+
+/* Our Store */ 
+.filter-card{
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px 15px;
+}
+
+
+/* Our Store ends here */ 
