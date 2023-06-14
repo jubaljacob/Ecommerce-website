@@ -267,9 +267,9 @@ const Home = () => {
           <div className="famous-card position-relative">
             <img src={famous2} alt="apple" className="img-fluid"/>
             <div className="famous-white-bg-text position-absolute text-dark">
-                <h5>Big Screen</h5>
-                <h6>Smart watch series 7</h6>
-                <p>from 40000</p>
+                <h5>Smartphone</h5>
+                <h6>iPhone 14 pro max</h6>
+                <p>from ₹1,39,999</p>
             </div>
             <a href="https://www.apple.com/iphone-14-pro/" target="_blank" rel="noopener noreferrer">
               <button className="famous-card-button">More info</button>
@@ -281,22 +281,26 @@ const Home = () => {
           <div className="famous-card position-relative">
             <img src={famous3} alt="apple" className="img-fluid"/>
               <div className="famous-white-bg-text position-absolute text-dark">
-                <h5>Big Screen</h5>
-                <h6>Smart watch series 7</h6>
-                <p>from 40000</p>
+                <h5>Smartphone</h5>
+                <h6>S23 ultra</h6>
+                <p>from ₹1,29,999</p>
               </div>
-              <button class="famous-card-button">More info</button>
+              <a href="https://www.samsung.com/in/smartphones/galaxy-s23-ultra/" target="_blank" rel="noopener noreferrer">
+                <button className="famous-card-button">More info</button>
+              </a>
            </div>
         </div>
         <div className="col-3">
           <div className="famous-card position-relative">
             <img src={famous4} alt="apple" className="img-fluid"/>
             <div className="famous-white-bg-text position-absolute text-dark">
-                <h5>Big Screen</h5>
-                <h6>Smart watch series 7</h6>
-                <p>from 40000</p>
+                <h5>Smart Home</h5>
+                <h6>Google Home</h6>
+                <p>from ₹8,999</p>
             </div>
-            <button class="famous-card-button">More info</button>
+            <a href="https://home.google.com/welcome/" target="_blank" rel="noopener noreferrer">
+              <button className="famous-card-button">More info</button>
+            </a>
            </div>
         </div>
       </div>

@@ -6,6 +6,7 @@ import wishlist from "../images/wishlist.svg";
 import user from "../images/user.svg";
 import cart from "../images/cart.svg";
 import menu from "../images/menu.svg";
+import logo from "../images/logo.png";
 import { InputGroup, FormControl, Button } from 'react-bootstrap';
 
 
@@ -41,9 +42,11 @@ const Header = () => {
         <div className="container-xl">
           <div className="row align-items-center">
             <div className="col-2">
-              <h2>
-                <Link className="text-white">Jojo's</Link>
-              </h2>
+              
+                <Link to="/" className="logo-img ">
+                  <img src={logo} alt="logo" style={{ height: '60px', width: '60px', paddingBlock:'5px', paddingBottom: '5px' }} />
+                </Link>
+              
             </div>
             <div className="col-5">
             <div className="input-group">
