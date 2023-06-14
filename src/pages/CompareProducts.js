@@ -1,6 +1,7 @@
 import React from 'react';
 import Meta from "../components/Meta";
 import watch from "../images/watch3.jpg";
+import s23 from "../images/s23.png";
 import cross from "../images/cross.svg";
 import Color from "../components/Color";
 
