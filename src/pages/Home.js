@@ -20,9 +20,10 @@ import camera from '../images/camera.jpg';
 import lap from '../images/laptop.jpg';
 import watch from '../images/watch.jpg';
 import speaker from '../images/speaker.jpg';
-import home from '../images/homeapp.jpg';
+import phone from '../images/phone.jpg';
 import music from '../images/headphone.jpg';
-import acc from '../images/acc.jpg';
+import acc from '../images/cases.jpg';
+import wash from '../images/washingmachine.jpg';
 // import mob from '../images/tab.jpg';
 import Marquee from "react-fast-marquee";
 import brand1 from "../images/brand-01.png";
@@ -221,7 +222,7 @@ const Home = () => {
                   <h6>Mobiles and Tablets</h6>
                   <p>64 Items</p>
                 </div>
-                <img src={home} alt="camera" />
+                <img src={phone} alt="camera" />
               </div>
               <div className="d-flex gap align-items-center">
                 <div>
@@ -242,7 +243,7 @@ const Home = () => {
                   <h6>Home Appliances</h6>
                   <p>36 Items</p>
                 </div>
-                <img src={home} alt="camera" />
+                <img src={wash} alt="camera" />
               </div>
             </div>
         </div>

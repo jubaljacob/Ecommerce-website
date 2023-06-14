@@ -8,6 +8,7 @@ import cart from "../images/cart.svg";
 import menu from "../images/menu.svg";
 import logo from "../images/logo.png";
 import { InputGroup, FormControl, Button } from 'react-bootstrap';
+import { alignProperty } from "@mui/material/styles/cssUtils";
 
 
 const Header = () => {
@@ -44,7 +45,7 @@ const Header = () => {
             <div className="col-2">
               
                 <Link to="/" className="logo-img ">
-                  <img src={logo} alt="logo" style={{ height: '60px', width: '60px', paddingBlock:'5px', paddingBottom: '5px' }} />
+                  <img src={logo} alt="logo" style={{ height: '60px', width: '100px'}} />
                 </Link>
               
             </div>
