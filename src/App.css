@@ -534,10 +534,11 @@ footer .input-group-text{
 
 /* Compare Product Page */
 
-.compare-product-card {
+.card {
   padding: 20px 15px;
+  margin-left: 1.5rem;
   background-color: white;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 .compare-product-card .cross,
 .wishlist-card .cross {
@@ -547,25 +548,102 @@ footer .input-group-text{
   padding: 3px;
   cursor: pointer;
 }
-.compare-product-details h5.title,
-.wishlist-card h5.title {
-  font-size: 15px;
-  line-height: 22px;
-  font-weight: 500;
+.compare-product-details h4.title,
+.wishlist-card h4.title {
+  font-weight: 900;
+  font-size: 1.2em;
+  line-height: 1.5;
   color: var(--color-1c1c1b);
 }
 .compare-product-details h6.price,
 .wishlist-card h6.price {
-  font-size: 15px;
-  line-height: 22px;
+  
+  line-height: 1.5;
   font-weight: 400;
+  font-size: .9em;
+  
 }
-.compare-product-card .product-detail {
+ .product-detail {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px 0px;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.card {
+ width: 360px;
+ height: 706px;
+ padding: .8em;
+ background: #FFFFFF;
+ position: static;
+ overflow: visible;
+ border-radius: 1.25rem;
+ box-shadow: 15px 15px 30px #bebebe,
+             -15px -15px 30px #ffffff;
+
+  margin-left: 1.5rem;
+  
+
+}
+
+.card-img {
+ background-color: #EDEDED;
+ height: 40%;
+ width: 100%;
+ border-radius: 1.25rem;
+ transition: .3s ease;
+}
+
+.card-info {
+ padding-top: 10%;
+}
+
+svg {
+ width: 20px;
+ height: 20px;
+}
+
+.card-footer {
+ width: 100%;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding-top: 10px;
+ border-top: 1px solid #ddd;
+}
+
+/*Text*/
+.text-title {
+ font-weight: 900;
+ font-size: 1.2em;
+ line-height: 1.5;
+}
+
+.text-body {
+ font-size: .9em;
+ padding-bottom: 10px;
+}
+
+/*Button*/
+.card-button {
+ border: 1px solid #252525;
+ display: flex;
+ padding: .3em;
+ cursor: pointer;
+ border-radius: 50px;
+ transition: .3s ease-in-out;
+}
+
+/*Hover*/
+.card-img:hover {
+ transform: translateY(-15%);
+ box-shadow: rgba(0, 0, 0, 0.45) 0px 5px 15px;
+}
+
+.card-button:hover {
+ border: 1px solid #687875;
+ background-color: #687875;
 }
 
 
