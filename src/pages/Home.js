@@ -191,56 +191,56 @@ const Home = () => {
               <div className="d-flex gap-30 align-items-center">
                 <div>
                   <h6>Laptop</h6>
-                  <p>10 Items</p>
+                  <p>25 Items</p>
                 </div>
                 <img src={lap} alt="camera" />
               </div>
               <div className="d-flex gap align-items-center">
                 <div>
                   <h6>Cameras</h6>
-                  <p>10 Items</p>
+                  <p>16 Items</p>
                 </div>
                 <img src={camera} alt="camera" />
               </div>
               <div className="d-flex gap align-items-center">
                 <div>
                   <h6>Music</h6>
-                  <p>10 Items</p>
+                  <p>58 Items</p>
                 </div>
                 <img src={music} alt="camera" />
               </div>
               <div className="d-flex gap align-items-center">
                 <div>
                   <h6>Smart Watches</h6>
-                  <p>10 Items</p>
+                  <p>31 Items</p>
                 </div>
                 <img src={watch} alt="camera" />
               </div>
               <div className="d-flex gap align-items-center">
                 <div>
                   <h6>Mobiles and Tablets</h6>
-                  <p>10 Items</p>
+                  <p>64 Items</p>
                 </div>
                 <img src={home} alt="camera" />
               </div>
               <div className="d-flex gap align-items-center">
                 <div>
                   <h6>Accessories</h6>
-                  <p>10 Items</p>
+                  <p>27 Items</p>
                 </div>
                 <img src={acc} alt="camera" />
               </div>
               <div className="d-flex gap align-items-center">
                 <div>
                   <h6>Portable Speakers</h6>
-                  <p>10 Items</p>
+                  <p>14 Items</p>
                 </div>
                 <img src={speaker} alt="camera" />
               </div>
               <div className="d-flex gap align-items-center">
                 <div>
                   <h6>Home Appliances</h6>
-                  <p>10 Items</p>
+                  <p>36 Items</p>
                 </div>
                 <img src={home} alt="camera" />
               </div>
