@@ -3,11 +3,12 @@ import ReactStars from "react-rating-stars-component";
 import { Link, useLocation } from "react-router-dom";
 import prodcompare from "../images/prodcompare.svg";
 import wish from "../images/wish.svg";
-import watch3 from "../images/watch3.jpg";
+import tv1 from "../images/lg.png";
+import tv2 from "../images/lg2.png";
 import watch2 from "../images/watch1.jpeg";
 import addcart from "../images/add-cart.svg";
 import view from "../images/view.svg";
-const ProductCard = (props) => {
+const ProductCarda = (props) => {
 
   return(
     <div className="col-3">
@@ -18,8 +19,8 @@ const ProductCard = (props) => {
           </Link>
         </div>
         <div className="product-image">
-          <img src={watch3} className="img-fluid" alt="product" />
-          <img src={watch2} className="img-fluid" alt="product" />
+          <img src={tv1} className="img-fluid" alt="product" />
+          <img src={tv2} className="img-fluid" alt="product" />
 
         </div>
         <div className="product-details">
@@ -57,4 +58,4 @@ const ProductCard = (props) => {
     </div>
   )
 };
-export default ProductCard;
+export default ProductCarda;

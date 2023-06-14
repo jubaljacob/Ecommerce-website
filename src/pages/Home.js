@@ -5,7 +5,10 @@ import mainbanner from '../images/main-banner-1.jpg';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import BlogCard from "../components/BlogCard";
-import ProductCard from "../components/ProductCard";
+import ProductCarda from "../components/ProductCarda";
+import ProductCardb from "../components/ProductCardb";
+import ProductCardc from "../components/ProductCardc";
+import ProductCardd from "../components/ProductCardd";
 import mainbanner1 from "../images/main-banner.jpg";
 import catbanner1 from '../images/catbanner-01.jpg';
 import catbanner2 from '../images/catbanner-02.jpg';
@@ -314,14 +317,14 @@ const Home = () => {
             Featured Collection
           </h3>
         </div>
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
+        <ProductCarda />
+        <ProductCardb />
+        <ProductCardc />
+        <ProductCardd />
       </div>
     </div>
   </section>
-  <section className='popular-wrapper py-5 home-wrapper-2'>
+  {/* <section className='popular-wrapper py-5 home-wrapper-2'>
     <div className="container-xxl">
       <div className="row">
         <div className="col-12">
@@ -338,7 +341,7 @@ const Home = () => {
         
       </div>
     </div>
-  </section>
+  </section> */}
   <section className="home-wrapper-2 marque-wrapper py-5">
     <div className="container-xxl">
       <div className="row">
