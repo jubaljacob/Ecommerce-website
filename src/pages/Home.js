@@ -20,9 +20,10 @@ import camera from '../images/camera.jpg';
 import lap from '../images/laptop.jpg';
 import watch from '../images/watch.jpg';
 import speaker from '../images/speaker.jpg';
-import home from '../images/homeapp.jpg';
+import phone from '../images/phone.jpg';
 import music from '../images/headphone.jpg';
-import acc from '../images/acc.jpg';
+import acc from '../images/cases.jpg';
+import wash from '../images/washingmachine.jpg';
 // import mob from '../images/tab.jpg';
 import Marquee from "react-fast-marquee";
 import brand1 from "../images/brand-01.png";
@@ -191,58 +192,58 @@ const Home = () => {
               <div className="d-flex gap-30 align-items-center">
                 <div>
                   <h6>Laptop</h6>
-                  <p>10 Items</p>
+                  <p>25 Items</p>
                 </div>
                 <img src={lap} alt="camera" />
               </div>
               <div className="d-flex gap align-items-center">
                 <div>
                   <h6>Cameras</h6>
-                  <p>10 Items</p>
+                  <p>16 Items</p>
                 </div>
                 <img src={camera} alt="camera" />
               </div>
               <div className="d-flex gap align-items-center">
                 <div>
                   <h6>Music</h6>
-                  <p>10 Items</p>
+                  <p>58 Items</p>
                 </div>
                 <img src={music} alt="camera" />
               </div>
               <div className="d-flex gap align-items-center">
                 <div>
                   <h6>Smart Watches</h6>
-                  <p>10 Items</p>
+                  <p>31 Items</p>
                 </div>
                 <img src={watch} alt="camera" />
               </div>
               <div className="d-flex gap align-items-center">
                 <div>
                   <h6>Mobiles and Tablets</h6>
-                  <p>10 Items</p>
+                  <p>64 Items</p>
                 </div>
-                <img src={home} alt="camera" />
+                <img src={phone} alt="camera" />
               </div>
               <div className="d-flex gap align-items-center">
                 <div>
                   <h6>Accessories</h6>
-                  <p>10 Items</p>
+                  <p>27 Items</p>
                 </div>
                 <img src={acc} alt="camera" />
               </div>
               <div className="d-flex gap align-items-center">
                 <div>
                   <h6>Portable Speakers</h6>
-                  <p>10 Items</p>
+                  <p>14 Items</p>
                 </div>
                 <img src={speaker} alt="camera" />
               </div>
               <div className="d-flex gap align-items-center">
                 <div>
                   <h6>Home Appliances</h6>
-                  <p>10 Items</p>
+                  <p>36 Items</p>
                 </div>
-                <img src={home} alt="camera" />
+                <img src={wash} alt="camera" />
               </div>
             </div>
         </div>
@@ -267,9 +268,9 @@ const Home = () => {
           <div className="famous-card position-relative">
             <img src={famous2} alt="apple" className="img-fluid"/>
             <div className="famous-white-bg-text position-absolute text-dark">
-                <h5>Big Screen</h5>
-                <h6>Smart watch series 7</h6>
-                <p>from 40000</p>
+                <h5>Smartphone</h5>
+                <h6>iPhone 14 pro max</h6>
+                <p>from ₹1,39,999</p>
             </div>
             <a href="https://www.apple.com/iphone-14-pro/" target="_blank" rel="noopener noreferrer">
               <button className="famous-card-button">More info</button>
@@ -281,22 +282,26 @@ const Home = () => {
           <div className="famous-card position-relative">
             <img src={famous3} alt="apple" className="img-fluid"/>
               <div className="famous-white-bg-text position-absolute text-dark">
-                <h5>Big Screen</h5>
-                <h6>Smart watch series 7</h6>
-                <p>from 40000</p>
+                <h5>Smartphone</h5>
+                <h6>S23 ultra</h6>
+                <p>from ₹1,29,999</p>
               </div>
-              <button class="famous-card-button">More info</button>
+              <a href="https://www.samsung.com/in/smartphones/galaxy-s23-ultra/" target="_blank" rel="noopener noreferrer">
+                <button className="famous-card-button">More info</button>
+              </a>
            </div>
         </div>
         <div className="col-3">
           <div className="famous-card position-relative">
             <img src={famous4} alt="apple" className="img-fluid"/>
             <div className="famous-white-bg-text position-absolute text-dark">
-                <h5>Big Screen</h5>
-                <h6>Smart watch series 7</h6>
-                <p>from 40000</p>
+                <h5>Smart Home</h5>
+                <h6>Google Home</h6>
+                <p>from ₹8,999</p>
             </div>
-            <button class="famous-card-button">More info</button>
+            <a href="https://home.google.com/welcome/" target="_blank" rel="noopener noreferrer">
+              <button className="famous-card-button">More info</button>
+            </a>
            </div>
         </div>
       </div>

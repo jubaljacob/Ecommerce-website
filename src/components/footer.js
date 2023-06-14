@@ -24,9 +24,9 @@ const Footer = () => {
                   aria-label="Your Email Address"
                   aria-aria-describedby="basic-addon2"
                 />
-                <span className="input-group-text p-2" id="basic-addon2">
+                <button className="input-group-text p-2" id="basic-addon2">
                   Subscribe
-                </span>
+                </button>
               </div>
             </div>
           </div>
@@ -39,24 +39,24 @@ const Footer = () => {
               <h4 className="text-white mb-4">Contact Us</h4>
               <div>
                 <address className="text-white fs-6">
-                  2936 Alfred Drive<br />
-                  Queens, New York<br />
-                  Zipcode: 11103
+                  Infopark Road<br />
+                  Infopark, kochi<br />
+                  Zipcode: 689509
                 </address>
-                <a href="tel: (201)384-4048" className="mt-3 d-block mb-1 text-white">
-                  (201)384-4048
+                <a href="tel: +91 6282665058" className="mt-3 d-block mb-1 text-white">
+                  +91 6282665058
                 </a>
-                <a href="mailto:cohelocristi21@gmail.com" className="mt-3 d-block mb-0 text-white">
-                  cohelocristi21@gmail.com
+                <a href="mailto:jandbecommerce@gmail.com" className="mt-3 d-block mb-0 text-white">
+                  jandb@gmail.com
                 </a>
                 <div className="social_icons d-flex align-items-center gap-30 mt-4">
-                  <a className="text-white" href="#">
+                  <a className="text-white" href="https://www.linkedin.com/in/joel-jojo-mathew-65a638209/" target="_blank" rel="noopener noreferrer">
                     <BsLinkedin className="fs-4" />
                   </a>
-                  <a className="text-white" href="#">
+                  <a className="text-white" href="https://www.instagram.com/83nn3t_prav33n/">
                     <BsInstagram className="fs-4" />
                   </a>
-                  <a className="text-white" href="#">
+                  <a className="text-white" href="https://github.com/jubaljacob">
                     <BsGithub className="fs-4" />
                   </a>
                   <a className="text-white" href="#">
