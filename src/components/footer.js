@@ -53,13 +53,13 @@ const Footer = () => {
                   <a className="text-white" href="https://www.linkedin.com/in/joel-jojo-mathew-65a638209/" target="_blank" rel="noopener noreferrer">
                     <BsLinkedin className="fs-4" />
                   </a>
-                  <a className="text-white" href="https://www.instagram.com/83nn3t_prav33n/">
+                  <a className="text-white" href="https://www.instagram.com/83nn3t_prav33n/" target="_blank" rel="noopener noreferrer">
                     <BsInstagram className="fs-4" />
                   </a>
-                  <a className="text-white" href="https://github.com/jubaljacob">
+                  <a className="text-white" href="https://github.com/jubaljacob" target="_blank" rel="noopener noreferrer">
                     <BsGithub className="fs-4" />
                   </a>
-                  <a className="text-white" href="#">
+                  <a className="text-white" href="https://www.youtube.com/@vijayaskitchen6869" target="_blank" rel="noopener noreferrer">
                     <BsYoutube className="fs-4" />
                   </a>
                 </div>
