@@ -25,10 +25,10 @@ const ProductCarda = (props) => {
         </div>
         <div className="product-details">
           <h6 className="brand">
-            Havels
+            LG
           </h6>
           <h5 className="product-title">
-            kids headphoens bulk pack for students
+            LG OLED evo C2X 65 (164cm) 4K Smart TV | TV Wall Design | WebOS | Dolby Vision
           </h5>
           <ReactStars 
             count={5}
@@ -38,7 +38,7 @@ const ProductCarda = (props) => {
             activeColor="#ffd700"
           />
           <p className="price">
-            50,500
+            ₹3,19,990
           </p>
         </div>
         <div className="action-bar position-absolute">
