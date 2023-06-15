@@ -15,7 +15,7 @@ const Wishlist = () => {
             <div className="card-wishlist">
               <div className="image-wishlist"> <img src={wish1} alt="" /></div>
                 <span className="title">S23 Ultra</span>
-                <span className="price"></span>
+                <span className="price">₹1,29,999</span>
               </div>
             </div>
           </div>
