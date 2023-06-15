@@ -13,7 +13,7 @@
   --color-footmain: #214e40; /*second*/
   --color-footer: #de4d4d; /*footer*/
   --color-bf4800: #bf4800; /*current sale*/
-  --color-f5f5f7: #f5f5f7; /*free shipping*/
+  --color-f5f5f7: #e8e8e8; /*free shipping*/
   --color-ededed: #ededed;
   --color-777777: #777777;
   --color-1c1c1b: #1c1c1b;
@@ -487,10 +487,19 @@ footer .input-group-text{
 .contact-inner-wrapper {
   padding: 30px 20px;
   border-radius: 20px;
-  background-color: #f5f5f7;
+  background-color: white;
   gap: 15px;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  transition: .4s ease-in-out;
+  box-shadow: rgba(0, 0, 0, 0.4) 1px 2px 2px;
+
 }
+
+.contact-inner-wrapper:hover {
+  transform: translateX(-0.5em) translateY(-0.5em);
+  border: 1px solid #171717;
+  box-shadow: 10px 10px 0px #666666;
+}
+
 .contact-inner-wrapper > div {
   width: 48%;
 }
@@ -501,12 +510,27 @@ footer .input-group-text{
   text-align: left;
 }
 .contact-inner-wrapper form .form-control {
-  background-color: white;
-  border-radius: 10px;
-  
-  border-color: transparent;
-  padding: 10px;
+  height: 50px;
+  border: 1px solid whitesmoke;
+  background-color: whitesmoke;
+  outline: none;
+  color: var(--color-777777);
+  font-size: 14px;
+  border-radius: 20px;
+  transition: .4s ease-in-out;
 }
+
+.contact-inner-wrapper form .form-control:hover {
+  box-shadow: 6px 6px 0px #61716E,
+             -3px -3px 10px #ffffff;
+}
+
+.contact-inner-wrapper form .form-control:focus {
+  background: #ffffff;
+  box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3);
+}
+
+
 .contact-inner-wrapper ul {
   list-style: none;
 }
@@ -754,6 +778,7 @@ svg {
 
 /* wishlist starts here */
 .card-wishlist {
+  margin-top: 2.5rem;
   position: relative;
   width: 20.875em;
   height: 24.5em;
@@ -851,3 +876,94 @@ svg {
 
 
 /* Our Store ends here */ 
+
+/*  auth card */
+
+.auth-card {
+  padding: 20px;
+  width: 400px;
+  margin: 30px auto;
+  border-radius: 30px;
+  background: white;
+  transition: .4s ease-in-out;
+  box-shadow: 15px 15px 30px #bebebe,
+             -15px -15px 30px #ffffff;
+} 
+
+.auth-card:hover {
+  transform: translateX(-0.5em) translateY(-0.5em);
+  border: 1px solid #171717;
+  box-shadow: 10px 10px 0px #61716E;
+}
+
+.auth-card h3 {
+  font-size: 19px;
+  font-weight: 500;
+  color: var(--color-777777);
+  
+}
+.auth-card p {
+  font-size: 13px;
+  color: var(--color-777777);
+}
+.auth-card .form-control {
+  height: 50px;
+  border: 1px solid whitesmoke;
+  background-color: whitesmoke;
+  outline: none;
+  color: var(--color-777777);
+  font-size: 14px;
+  border-radius: 20px;
+  transition: .4s ease-in-out;
+}
+
+.auth-card .form-control:hover {
+  box-shadow: 6px 6px 0px #61716E,
+             -3px -3px 10px #ffffff;
+}
+
+.auth-card .form-control:focus {
+  background: #ffffff;
+  box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3);
+}
+
+.auth-card a {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--color-1c1c1b);
+}
+.signup {
+  background-color: var(--color-febd69);
+  color: var(--color-131921);
+  border: none;
+}
+.btn .signup:hover {
+  background-color: var(--color-131921);
+  color: white;
+}
+
+.btn {
+  margin-top: 2em;
+  align-self: center;
+  padding: 0.7em;
+  padding-left: 1em;
+  padding-right: 1em;
+  border-radius: 10px;
+  border: none;
+  color: black;
+  transition: .4s ease-in-out;
+  box-shadow: rgba(0, 0, 0, 0.4) 1px 1px 1px;
+}
+
+.btn:hover {
+  box-shadow: 6px 6px 0px #969696,
+             -3px -3px 10px #ffffff;
+  transform: translateX(-0.5em) translateY(-0.5em);
+}
+
+.btn:active {
+  transition: .2s;
+  transform: translateX(0em) translateY(0em);
+  box-shadow: none;
+}
+/*  auth card  ends*/

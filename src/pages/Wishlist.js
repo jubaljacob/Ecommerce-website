@@ -11,9 +11,30 @@ const Wishlist = () => {
       <div className='compare-product-wrapper py-5 home-wrapper-2'>
         <div className='container-xxl'>
           <div className='row'>
-            <div className="col-3">
-            <div className="card-wishlist">
-              <div className="image-wishlist"> <img src={wish1} alt="" /></div>
+            <div className="col-4">
+              <div className="card-wishlist">
+                <div className="image-wishlist"> <img src={wish1} alt="" /></div>
+                <span className="title">S23 Ultra</span>
+                <span className="price">₹1,29,999</span>
+                </div>
+              </div>
+            <div className="col-4">
+              <div className="card-wishlist">
+                <div className="image-wishlist"> <img src={wish1} alt="" /></div>
+                <span className="title">S23 Ultra</span>
+                <span className="price">₹1,29,999</span>
+              </div>
+            </div>
+            <div className="col-4">
+              <div className="card-wishlist">
+                <div className="image-wishlist"> <img src={wish1} alt="" /></div>
+                <span className="title">S23 Ultra</span>
+                <span className="price">₹1,29,999</span>
+              </div>
+            </div>
+            <div className="col-4">
+              <div className="card-wishlist">
+                <div className="image-wishlist"> <img src={wish1} alt="" /></div>
                 <span className="title">S23 Ultra</span>
                 <span className="price">₹1,29,999</span>
               </div>
@@ -21,7 +42,7 @@ const Wishlist = () => {
           </div>
         </div>
       </div>
-      </>
+    </>
   );
 };
 

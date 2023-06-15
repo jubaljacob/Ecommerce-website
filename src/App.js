@@ -9,7 +9,7 @@ import OurStore from "./pages/OurStore";
 // import Blog from "./pages/Blog";
 import CompareProducts from "./pages/CompareProducts";
 import Wishlist from "./pages/Wishlist";
-// import Login from "./pages/Login";
+import Login from "./pages/Login";
 // import Forgotpassword from "./pages/Forgotpassword";
 // import Signup from "./pages/Signup";
 // import Resetpassword from "./pages/Resetpassword";
@@ -33,6 +33,7 @@ function App() {
             <Route path="OurStore" element={<OurStore />} />
             <Route path="compare-product" element={<CompareProducts />} />
             <Route path="wishlist" element={<Wishlist />} />
+            <Route path="login" element={<Login />} />
             {/* <Route path="product/:id" element={<SingleProduct />} />
             <Route path="blogs" element={<Blog />} />
             <Route path="blog/:id" element={<SingleBlog />} />
@@ -40,7 +41,7 @@ function App() {
             <Route path="checkout" element={<Checkout />} />
             
             
-            <Route path="login" element={<Login />} />
+            
             <Route path="forgot-password" element={<Forgotpassword />} />
             <Route path="signup" element={<Signup />} />
             <Route path="reset-password" element={<Resetpassword />} />
