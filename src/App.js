@@ -10,9 +10,9 @@ import OurStore from "./pages/OurStore";
 import CompareProducts from "./pages/CompareProducts";
 import Wishlist from "./pages/Wishlist";
 import Login from "./pages/Login";
-// import Forgotpassword from "./pages/Forgotpassword";
-// import Signup from "./pages/Signup";
-// import Resetpassword from "./pages/Resetpassword";
+import Forgotpassword from "./pages/Forgotpassword";
+import Signup from "./pages/Signup";
+import Resetpassword from "./pages/Resetpassword";
 // import SingleBlog from "./pages/SingleBlog";
 // import PrivacyPolicy from "./pages/PrivacyPolicy";
 // import RefundPloicy from "./pages/RefundPloicy";
@@ -34,6 +34,10 @@ function App() {
             <Route path="compare-product" element={<CompareProducts />} />
             <Route path="wishlist" element={<Wishlist />} />
             <Route path="login" element={<Login />} />
+            <Route path="forgot-password" element={<Forgotpassword />} />
+            <Route path="signup" element={<Signup />} />
+            <Route path="reset-password" element={<Resetpassword />} />
+
             {/* <Route path="product/:id" element={<SingleProduct />} />
             <Route path="blogs" element={<Blog />} />
             <Route path="blog/:id" element={<SingleBlog />} />
@@ -42,9 +46,7 @@ function App() {
             
             
             
-            <Route path="forgot-password" element={<Forgotpassword />} />
-            <Route path="signup" element={<Signup />} />
-            <Route path="reset-password" element={<Resetpassword />} />
+           
             <Route path="privacy-policy" element={<PrivacyPolicy />} />
             <Route path="refund-policy" element={<RefundPloicy />} />
             <Route path="shipping-policy" element={<ShippingPolicy />} />
