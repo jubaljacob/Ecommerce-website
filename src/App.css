@@ -982,6 +982,9 @@ svg {
 .cart-col-1 {
   width: 40%;
 }
+.cart-img{
+  border-radius: 20px;
+}
 .cart-col-1 p {
   color: var(--color-777777);
   font-size: 14px;
