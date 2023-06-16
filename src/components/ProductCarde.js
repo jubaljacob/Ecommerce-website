@@ -3,11 +3,11 @@ import ReactStars from "react-rating-stars-component";
 import { Link, useLocation } from "react-router-dom";
 import prodcompare from "../images/prodcompare.svg";
 import wish from "../images/wish.svg";
-import stab2 from "../images/stab.png";
-import stab1 from "../images/stab2.png";
+import watch1 from "../images/watch3.jpg";
+import watch2 from "../images/watch1.jpeg";
 import addcart from "../images/add-cart.svg";
 import view from "../images/view.svg";
-const ProductCardb = (props) => {
+const ProductCardd = (props) => {
 
   return(
     <div className="col-3">
@@ -18,8 +18,8 @@ const ProductCardb = (props) => {
           </Link>
         </div>
         <div className="product-image">
-          <img src={stab1} className="img-fluid" alt="product" />
-          <img src={stab2} className="img-fluid" alt="product" />
+          <img src={watch1} className="img-fluid" alt="product" />
+          <img src={watch2} className="img-fluid" alt="product" />
 
         </div>
         <div className="product-details">
@@ -27,17 +27,17 @@ const ProductCardb = (props) => {
             Samsung
           </h6>
           <h5 className="product-title">
-            Samsung Galaxy Tab S8+ Android Tablet | 128GB Storage | Wi-Fi 6E
+            Samsung Galaxy Watch4 LTE | 4.4 cm | Black | Compatible with Android only
           </h5>
           <ReactStars 
             count={5}
             size={24}
             value="3"
-            edit={true}
+            edit={false}
             activeColor="#ffd700"
           />
           <p className="price">
-            ₹69,999
+            ₹19,399
           </p>
         </div>
         <div className="action-bar position-absolute">
@@ -57,4 +57,4 @@ const ProductCardb = (props) => {
     </div>
   )
 };
-export default ProductCardb;
+export default ProductCardd;

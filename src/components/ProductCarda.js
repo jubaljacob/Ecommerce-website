@@ -28,12 +28,12 @@ const ProductCarda = (props) => {
             LG
           </h6>
           <h5 className="product-title">
-            LG OLED evo C2X 65 (164cm) 4K Smart TV | TV Wall Design | WebOS | Dolby Vision
+            LG OLED evo C2X 65 (164cm) 4K Smart TV | TV Wall Design | WebOS
           </h5>
           <ReactStars 
             count={5}
             size={24}
-            value="3"
+            value="4"
             edit={false}
             activeColor="#ffd700"
           />
@@ -43,7 +43,7 @@ const ProductCarda = (props) => {
         </div>
         <div className="action-bar position-absolute">
           <div className="d-flex flex-column gap-15">
-            <Link>
+            <Link to="../compare-product">
               <img src={prodcompare} alt="compare" />
             </Link>
             <Link>
