@@ -3,8 +3,8 @@ import ReactStars from "react-rating-stars-component";
 import { Link, useLocation } from "react-router-dom";
 import prodcompare from "../images/prodcompare.svg";
 import wish from "../images/wish.svg";
-import watch3 from "../images/watch3.jpg";
-import watch2 from "../images/watch1.jpeg";
+import mouse1 from "../images/mouse1.png";
+import mouse2 from "../images/mouse2.png";
 import addcart from "../images/add-cart.svg";
 import view from "../images/view.svg";
 const ProductCardd = (props) => {
@@ -18,16 +18,16 @@ const ProductCardd = (props) => {
           </Link>
         </div>
         <div className="product-image">
-          <img src={watch3} className="img-fluid" alt="product" />
-          <img src={watch2} className="img-fluid" alt="product" />
+          <img src={mouse1} className="img-fluid" alt="product" />
+          <img src={mouse2} className="img-fluid" alt="product" />
 
         </div>
         <div className="product-details">
           <h6 className="brand">
-            Havels
+            Logitech
           </h6>
           <h5 className="product-title">
-            kids headphoens bulk pack for students
+            G502 X Lightspeed wireless gaming mouse
           </h5>
           <ReactStars 
             count={5}
@@ -37,7 +37,7 @@ const ProductCardd = (props) => {
             activeColor="#ffd700"
           />
           <p className="price">
-            50,500
+            ₹15,495
           </p>
         </div>
         <div className="action-bar position-absolute">

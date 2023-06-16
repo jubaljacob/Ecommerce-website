@@ -3,8 +3,8 @@ import ReactStars from "react-rating-stars-component";
 import { Link, useLocation } from "react-router-dom";
 import prodcompare from "../images/prodcompare.svg";
 import wish from "../images/wish.svg";
-import watch3 from "../images/watch3.jpg";
-import watch2 from "../images/watch1.jpeg";
+import hk1 from "../images/hk1.png";
+import hk2 from "../images/hk2.png";
 import addcart from "../images/add-cart.svg";
 import view from "../images/view.svg";
 const ProductCardc = (props) => {
@@ -18,26 +18,26 @@ const ProductCardc = (props) => {
           </Link>
         </div>
         <div className="product-image">
-          <img src={watch3} className="img-fluid" alt="product" />
-          <img src={watch2} className="img-fluid" alt="product" />
+          <img src={hk2} className="img-fluid" alt="product" />
+          <img src={hk1} className="img-fluid" alt="product" />
 
         </div>
         <div className="product-details">
           <h6 className="brand">
-            Havels
+            Harman
           </h6>
           <h5 className="product-title">
-            kids headphoens bulk pack for students
+            Harman Kardon FLY ANC | Wireless Over-Ear NC Headphones
           </h5>
           <ReactStars 
             count={5}
             size={24}
-            value="3"
+            value="4"
             edit={false}
             activeColor="#ffd700"
           />
           <p className="price">
-            50,500
+            ₹19,999
           </p>
         </div>
         <div className="action-bar position-absolute">
