@@ -937,13 +937,14 @@ svg {
   background-color: var(--color-febd69);
   color: var(--color-131921);
   border: none;
+  height: 47px;
 }
-.btn .signup:hover {
+.btnn .signup:hover {
   background-color: var(--color-131921);
   color: white;
 }
 
-.btn {
+.btnn {
   margin-top: 2em;
   align-self: center;
   padding: 0.7em;
@@ -956,13 +957,13 @@ svg {
   box-shadow: rgba(0, 0, 0, 0.4) 1px 1px 1px;
 }
 
-.btn:hover {
+.btnn:hover {
   box-shadow: 6px 6px 0px #969696,
              -3px -3px 10px #ffffff;
   transform: translateX(-0.5em) translateY(-0.5em);
 }
 
-.btn:active {
+.btnn:active {
   transition: .2s;
   transform: translateX(0em) translateY(0em);
   box-shadow: none;
