@@ -20,7 +20,7 @@ import Resetpassword from "./pages/Resetpassword";
 // import TermAndContions from "./pages/TermAndContions";
 // import SingleProduct from "./pages/SingleProduct";
 import Cart from "./pages/Cart";
-// import Checkout from "./pages/Checkout";
+import Checkout from "./pages/Checkout";
 function App() {
   return (
     <>
@@ -39,12 +39,12 @@ function App() {
             <Route path="reset-password" element={<Resetpassword />} />
             <Route path="blogs" element={<Blog />} />
             <Route path="cart" element={<Cart />} />
+            <Route path="checkout" element={<Checkout />} />
 
 
 
             {/* <Route path="product/:id" element={<SingleProduct />} />
             <Route path="blog/:id" element={<SingleBlog />} />
-            <Route path="checkout" element={<Checkout />} />
             
             
             
