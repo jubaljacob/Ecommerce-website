@@ -5,7 +5,7 @@ import Layout from "./components/Layout";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
-import OurStore from "./pages/Store";
+import Store from "./pages/Store";
 import Blog from "./pages/Blog";
 import CompareProducts from "./pages/CompareProducts";
 import Wishlist from "./pages/Wishlist";

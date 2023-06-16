@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Meta from "../components/Meta";
-import ReactStars from "react-rating-stars-component";
-import ProductCard from "../components/ProductCard";
+// import ReactStars from "react-rating-stars-component";
+// import ProductCard from "../components/ProductCard";
 import Color from "../components/Color";
 import Container from "../components/Container";
 
