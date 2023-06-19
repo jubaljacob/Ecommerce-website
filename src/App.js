@@ -5,14 +5,14 @@ import Layout from "./components/Layout";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
-import OurStore from "./pages/OurStore";
+import Store from "./pages/Store";
 import Blog from "./pages/Blog";
 import CompareProducts from "./pages/CompareProducts";
 import Wishlist from "./pages/Wishlist";
 import Login from "./pages/Login";
-import Forgotpassword from "./pages/Forgotpassword";
-import Signup from "./pages/Signup";
-import Resetpassword from "./pages/Resetpassword";
+// import Forgotpassword from "./pages/Forgotpassword";
+// import Signup from "./pages/Signup";
+// import Resetpassword from "./pages/Resetpassword";
 // import SingleBlog from "./pages/SingleBlog";
 // import PrivacyPolicy from "./pages/PrivacyPolicy";
 // import RefundPloicy from "./pages/RefundPloicy";
@@ -30,7 +30,7 @@ function App() {
             <Route index element={<Home />} />
             <Route path="about" element={<About />} />
             <Route path="contact" element={<Contact />} />
-            <Route path="OurStore" element={<OurStore />} />
+            <Route path="Store" element={<Store />} />
             <Route path="compare-product" element={<CompareProducts />} />
             <Route path="wishlist" element={<Wishlist />} />
             <Route path="login" element={<Login />} />
@@ -39,7 +39,6 @@ function App() {
             <Route path="reset-password" element={<Resetpassword />} />
             <Route path="blogs" element={<Blog />} />
             <Route path="cart" element={<Cart />} />
-            <Route path="checkout" element={<Checkout />} />
 
 
 
@@ -48,7 +47,9 @@ function App() {
             
             
             
-           
+            <Route path="forgot-password" element={<Forgotpassword />} />
+            <Route path="signup" element={<Signup />} />
+            <Route path="reset-password" element={<Resetpassword />} />
             <Route path="privacy-policy" element={<PrivacyPolicy />} />
             <Route path="refund-policy" element={<RefundPloicy />} />
             <Route path="shipping-policy" element={<ShippingPolicy />} />
