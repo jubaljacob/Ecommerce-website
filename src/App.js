@@ -10,9 +10,9 @@ import Blog from "./pages/Blog";
 import CompareProducts from "./pages/CompareProducts";
 import Wishlist from "./pages/Wishlist";
 import Login from "./pages/Login";
-// import Forgotpassword from "./pages/Forgotpassword";
-// import Signup from "./pages/Signup";
-// import Resetpassword from "./pages/Resetpassword";
+import Forgotpassword from "./pages/Forgotpassword";
+import Signup from "./pages/Signup";
+import Resetpassword from "./pages/Resetpassword";
 // import SingleBlog from "./pages/SingleBlog";
 // import PrivacyPolicy from "./pages/PrivacyPolicy";
 // import RefundPloicy from "./pages/RefundPloicy";
@@ -39,6 +39,7 @@ function App() {
             <Route path="reset-password" element={<Resetpassword />} />
             <Route path="blogs" element={<Blog />} />
             <Route path="cart" element={<Cart />} />
+            <Route path="checkout" element={<Checkout />} />
 
 
 
