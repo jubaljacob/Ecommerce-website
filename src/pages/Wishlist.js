@@ -2,14 +2,13 @@ import React from "react";
 import Meta from "../components/Meta";
 
 import wish1 from "../images/s23.png";
-
+import Container from "../components/Container";
 const Wishlist = () => {
   return (
     <>
       <Meta title={"Wishlist"} />
-      
-      <div className='compare-product-wrapper py-5 home-wrapper-2'>
-        <div className='container-xxl'>
+      <Container className='compare-product-wrapper py-5 home-wrapper-2'>
+
           <div className='row'>
             <div className="col-4">
               <div className="card-wishlist">
@@ -40,8 +39,8 @@ const Wishlist = () => {
               </div>
             </div>
           </div>
-        </div>
-      </div>
+      </Container>
+      
     </>
   );
 };

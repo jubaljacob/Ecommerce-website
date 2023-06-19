@@ -4,13 +4,13 @@ import watch from "../images/watch3.jpg";
 import s23 from "../images/s23.png";
 import cross from "../images/cross.svg";
 import Color from "../components/Color";
-
+import Container from '../components/Container';
 const CompareProducts = () => {
   return (
     <>
       <Meta title={"Compare Products"} />
-      <div className='compare-product-wrapper py-5 home-wrapper-2'>
-        <div className='container-xxl'>
+      <Container class1="compare-product-wrapper py-5 home-wrapper-2">
+
           <div className='row'>
             <div className="col-4">
               <div className="card">
@@ -139,8 +139,9 @@ const CompareProducts = () => {
               </div>
             </div>
           </div>
-        </div>
-      </div>
+
+      </Container>
+      
     </>
   );
 };

@@ -1,13 +1,14 @@
 import React from 'react';
 import Meta from "../components/Meta";
+import Container from "../components/Container";
+
 
 
 const Contact = () => {
   return (
     <>
       <Meta title={"Contact Us"} />
-      <div className="contact-wrapper py-5 home-wrapper-2">
-        <div className="container-xxl">
+      <Container className="contact-wrapper py-5 home-wrapper-2">
           <div className="row">
             <div className="col-12 col-lg-5">
               <div className="contact-inner-wrapper">
@@ -63,8 +64,9 @@ const Contact = () => {
               </div>
             </div>
           </div>
-        </div>
-      </div>
+
+      </Container>
+      
     </>
   );
 };

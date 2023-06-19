@@ -43,6 +43,8 @@ import famous2 from "../images/iphone.jpg";
 import famous3 from "../images/s23vere.jpeg.jpg";
 import famous4 from "../images/homepod.jpg";
 
+import Container from '../components/Container';
+
 
 
 
