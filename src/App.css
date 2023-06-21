@@ -882,7 +882,7 @@ svg {
 
 .auth-card {
   padding: 20px;
-  width: 400px;
+  width: 80%;
   margin: 30px auto;
   border-radius: 30px;
   background: white;
@@ -937,7 +937,7 @@ svg {
   background-color: var(--color-febd69);
   color: var(--color-131921);
   border: none;
-  height: 47px;
+  height: 100px;
 }
 .btnn .signup:hover {
   background-color: var(--color-131921);
