@@ -1,7 +1,7 @@
 import React from 'react';
 import Slider from "react-slick";
 import {Link} from "react-router-dom";
-import mainbanner from '../images/main-banner-1.jpg';
+import mainbanner from '../images/apple.jpg';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import BlogCard from "../components/BlogCard";
@@ -9,7 +9,7 @@ import ProductCarda from "../components/ProductCarda";
 import ProductCardb from "../components/ProductCardb";
 import ProductCardc from "../components/ProductCardc";
 import ProductCardd from "../components/ProductCardd";
-import mainbanner1 from "../images/main-banner.jpg";
+import mainbanner1 from "../images/apple2.jpg";
 import catbanner1 from '../images/catbanner-01.jpg';
 import catbanner2 from '../images/catbanner-02.jpg';
 import catbanner3 from '../images/catbanner-03.jpg';
@@ -75,12 +75,12 @@ const MainBanner = () => {
       </div>
       <div className="main-banner position-relative">
         <img src={mainbanner1} className="img-fluid rounded-3" alt="main banner" />
-        <div className="main-banner-content position-absolute">
+        {/* <div className="main-banner-content position-absolute">
           <h4>Era of spatial computing</h4>
           <h5>Vision Pro.</h5>
           <p>From ₹2,89,999.</p>
           <button className="button">BUY NOW</button>
-        </div>
+        </div> */}
       </div>
     </Slider>
   );
