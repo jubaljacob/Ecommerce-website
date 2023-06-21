@@ -73,7 +73,7 @@ const Signup = () => {
                     </div>
                   </form>
                 </div>
-                <div className="w-50 ps-3">
+                <div className="  w-50 ps-3">
                   <div className="d-flex flex-column align-items-center">
                     {image ? (
                       <>
@@ -100,9 +100,11 @@ const Signup = () => {
                           style={{
                             width: "100%",
                             height: "auto",
-                            paddingBottom :"25px"
+                            paddingBottom: "25px",
+                            borderRadius: "50px",
                           }}
                         />
+
                         <button className="button" type="button" onClick={handleCaptureImage}>
                           Capture Image
                         </button>

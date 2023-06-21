@@ -934,11 +934,123 @@ svg {
   font-weight: 400;
   color: var(--color-1c1c1b);
 }
+
+.auth-card {
+  padding: 20px;
+  width: 80%;
+  margin: 30px auto;
+  border-radius: 30px;
+  background: white;
+  transition: .4s ease-in-out;
+  box-shadow: 15px 15px 30px #bebebe,
+             -15px -15px 30px #ffffff;
+} 
+
+.auth-card:hover {
+  transform: translateX(-0.5em) translateY(-0.5em);
+  border: 1px solid #171717;
+  box-shadow: 10px 10px 0px #61716E;
+}
+
+.auth-card h3 {
+  font-size: 19px;
+  font-weight: 500;
+  color: var(--color-777777);
+  
+}
+.auth-card p {
+  font-size: 13px;
+  color: var(--color-777777);
+}
+.auth-card .form-control {
+  height: 50px;
+  border: 1px solid whitesmoke;
+  background-color: whitesmoke;
+  outline: none;
+  color: var(--color-777777);
+  font-size: 14px;
+  border-radius: 20px;
+  transition: .4s ease-in-out;
+}
+
+.auth-card .form-control:hover {
+  box-shadow: 6px 6px 0px #61716E,
+             -3px -3px 10px #ffffff;
+}
+
+.auth-card .form-control:focus {
+  background: #ffffff;
+  box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3);
+}
+
+.auth-card a {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--color-1c1c1b);
+}
+
+
+
+.auth-card-LOGIN {
+  padding: 20px;
+  width: 40%;
+  margin: 30px auto;
+  border-radius: 30px;
+  background: white;
+  transition: .4s ease-in-out;
+  box-shadow: 15px 15px 30px #bebebe,
+             -15px -15px 30px #ffffff;
+} 
+
+.auth-card-LOGIN:hover {
+  transform: translateX(-0.5em) translateY(-0.5em);
+  border: 1px solid #171717;
+  box-shadow: 10px 10px 0px #61716E;
+}
+
+.auth-card-LOGIN h3 {
+  font-size: 19px;
+  font-weight: 500;
+  color: var(--color-777777);
+  
+}
+.auth-card-LOGIN p {
+  font-size: 13px;
+  color: var(--color-777777);
+}
+.auth-card-LOGIN .form-control {
+  height: 50px;
+  border: 1px solid whitesmoke;
+  background-color: whitesmoke;
+  outline: none;
+  color: var(--color-777777);
+  font-size: 14px;
+  border-radius: 20px;
+  transition: .4s ease-in-out;
+}
+
+.auth-card-LOGIN .form-control:hover {
+  box-shadow: 6px 6px 0px #61716E,
+             -3px -3px 10px #ffffff;
+}
+
+.auth-card-LOGIN .form-control:focus {
+  background: #ffffff;
+  box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3);
+}
+
+.auth-card-LOGIN a {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--color-1c1c1b);
+}
+
+
 .signup {
   background-color: var(--color-febd69);
   color: var(--color-131921);
   border: none;
-  height: 100px;
+  height: 48px;
 }
 .btnn .signup:hover {
   background-color: var(--color-131921);
@@ -946,7 +1058,7 @@ svg {
 }
 
 .btnn {
-  margin-top: 2em;
+  margin-top: 1em;
   align-self: center;
   padding: 0.7em;
   padding-left: 1em;
