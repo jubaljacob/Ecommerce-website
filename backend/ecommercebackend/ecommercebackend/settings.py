@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'ecommercebackend',
 ]
 
 MIDDLEWARE = [
@@ -75,8 +76,12 @@ WSGI_APPLICATION = 'ecommercebackend.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'ecommerce_db',
+        'USER': 'root',
+        'PASSWORD': 'J&bcorp#123',
+        'HOST': 'localhost',  # Leave empty for localhost
+        'PORT': '3306',  # Leave empty for default port
     }
 }
 
