@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Webcam from "react-webcam";
 import Meta from "../components/Meta";
 import Container from "../components/Container";
 import CustomInput from "../components/CustomInput";
@@ -8,7 +7,7 @@ import CustomInput from "../components/CustomInput";
 const Login = () => {
   return (
     <>
-      <Meta title={"Login"} />
+      <Meta title={"Loginpass"} />
       <Container class1="login-wrapper py-5 home-wrapper-2">
         <div className="row">
           <div className="col-12">
@@ -28,15 +27,9 @@ const Login = () => {
                     <button className="btnn border-0" type="submit">
                       login
                     </button>
-                    <Link to="/loginpass" className="btnn signup">
-                      Login with password
-                    </Link>
                     <Link to="/signup" className="btnn signup">
-                      Signup
+                      SignUp
                     </Link>
-                    <a href=".D:\internship\Ecommerce-website\frontend\src\pages\Signup.js">
-                      <button className="btnn signup">Sign up</button>
-                    </a>
                   </div>
                 </div>
               </form>

@@ -9,6 +9,7 @@ import Store from "./pages/Store";
 import Blog from "./pages/Blog";
 import CompareProducts from "./pages/CompareProducts";
 import Wishlist from "./pages/Wishlist";
+import Loginpass from "./pages/loginpass";
 import Login from "./pages/Login";
 import Forgotpassword from "./pages/Forgotpassword";
 import Signup from "./pages/Signup";
@@ -33,6 +34,7 @@ function App() {
             <Route path="Store" element={<Store />} />
             <Route path="compare-product" element={<CompareProducts />} />
             <Route path="wishlist" element={<Wishlist />} />
+            <Route path="loginpass" element={<Loginpass />} />
             <Route path="login" element={<Login />} />
             <Route path="forgot-password" element={<Forgotpassword />} />
             <Route path="signup" element={<Signup />} />
