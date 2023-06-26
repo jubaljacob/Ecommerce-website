@@ -1,6 +1,6 @@
 import React from "react";
 import Meta from "../components/Meta";
-import BlogCard from "../components/BlogCard";
+// import BlogCard from "../components/BlogCard";
 import Container from "../components/Container";
 
 const Blog = () => {

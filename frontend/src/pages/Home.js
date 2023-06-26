@@ -4,7 +4,10 @@ import {Link} from "react-router-dom";
 import mainbanner from '../images/apple.jpg';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import BlogCard from "../components/BlogCard";
+import BlogCarda from "../components/BlogCarda";
+import BlogCardb from "../components/BlogCardb";
+import BlogCardc from "../components/BlogCardc";
+import BlogCardd from "../components/BlogCardd";
 import ProductCarda from "../components/ProductCarda";
 import ProductCardb from "../components/ProductCardb";
 import ProductCardc from "../components/ProductCardc";
@@ -388,10 +391,10 @@ const Home = () => {
             Our Latest Blogs
           </h3>
         </div>
-        <BlogCard />
-        <BlogCard />
-        <BlogCard />
-        <BlogCard />
+        <BlogCarda />
+        <BlogCardb />
+        <BlogCardc />
+        <BlogCardd />
       </div>
     </div>
   </section>

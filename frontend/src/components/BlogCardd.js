@@ -2,7 +2,7 @@ import React from 'react'
 import {Link} from "react-router-dom"
 import blog1 from '../images/blog-1.jpg'
 
-const BlogCard = () => {
+const BlogCardd = () => {
   return (
     <div className="col-3">
         <div className="blog-card">
@@ -24,4 +24,4 @@ const BlogCard = () => {
   )
 }
 
-export default BlogCard
+export default BlogCardd
