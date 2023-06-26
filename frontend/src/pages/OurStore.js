@@ -18,10 +18,12 @@ const Store = () => {
               <h3 className="filter-title">Shop By Categories</h3>
               <div>
                 <ul className="ps-0">
-                  <li>Watch</li>
-                  <li>Tv</li>
-                  <li>Camera</li>
                   <li>Laptop</li>
+                  <li>Camera</li>
+                  <li>Music</li>
+                  <li>Smartwatch</li>
+                  <li>Smartphones and tablets</li>
+                  <li>Home appliances</li>
                 </ul>
               </div>
             </div>
@@ -38,7 +40,7 @@ const Store = () => {
                       id=""
                     />
                     <label className="form-check-label" htmlFor="">
-                      In Stock (1)
+                      In Stock (49)
                     </label>
                   </div>
                   <div className="form-check">
@@ -49,7 +51,7 @@ const Store = () => {
                       id=""
                     />
                     <label className="form-check-label" htmlFor="">
-                      Out of Stock(0)
+                      Out of Stock(7)
                     </label>
                   </div>
                 </div>
@@ -89,16 +91,6 @@ const Store = () => {
                       <li></li>
                       <li></li>
                       <li></li>
-                      <li></li>
-                      <li></li>
-                      <li></li>
-                      <li></li>
-                      <li></li>
-                      <li></li>
-                      <li></li>
-                      <li></li>
-                      <li></li>
-
                     </ul>
                   </div>
                 </div>

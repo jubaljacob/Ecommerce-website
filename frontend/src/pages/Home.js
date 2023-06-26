@@ -109,7 +109,7 @@ const Home = () => {
               <div className="small-banner-content position-absolute">
                 <h4>Current Sale</h4>
                 <h5>MacBook Air.</h5>
-                <p>From ₹92,000 onwards</p>
+                <p>From ₹1,34,000 onwards</p>
               </div>
             </div>
             <div className="small-banner position-relative">
@@ -120,8 +120,8 @@ const Home = () => {
               />
               <div className="small-banner-content position-absolute">
                 <h4>New arrival</h4>
-                <h5>Watch Pro.</h5>
-                <p>From ₹59,000 onwards</p>
+                <h5>Apple watch.</h5>
+                <p>From ₹48,000 onwards</p>
               </div>
             </div>
             <div className="small-banner position-relative">
@@ -132,8 +132,8 @@ const Home = () => {
               />
               <div className="small-banner-content position-absolute">
                 <h4>Current Sale</h4>
-                <h5>iPad(9th gen).</h5>
-                <p>From ₹49,000 onwards</p>
+                <h5>iPad pro.</h5>
+                <p>From ₹1,18,000 onwards</p>
               </div>
             </div>
             <div className="small-banner position-relative">
