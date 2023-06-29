@@ -3,4 +3,4 @@ from django.contrib import admin
 
 def home(request):
     # Logic for handling the home page
-    return render(request, 'frontend/src/pages/Home.js')
+    return render(request, 'Home.js')
